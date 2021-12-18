@@ -1,0 +1,91 @@
+@media(max-width: 991px) {
+    header {
+        padding: 20px;
+    }
+
+    header .logo {
+        max-width: 60px;
+    }
+    header ul {
+        display: none;
+    }
+
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor:pointer;
+        background-image: url(img/menured.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition:ease;
+        z-index:11;
+    }
+
+    .toggle:hover {
+        opacity: 0.8;
+    }
+
+    .toggle.active {
+        position:fixed;
+        right:5px;
+        background-image: url(img/closered.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+
+    header ul.navigation.active {
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        align-items:stretch;
+        justify-content:center;
+        flex-direction:column;
+        background-color:#d4d3d4;
+        z-index: 10;
+    }
+
+    .navigation.active li a {
+        font-size: 1.8em;
+        margin-bottom:40px;
+    }
+
+    section {
+        padding: 20px 20px 180px;
+    }
+
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .content .textBox h2 p pre {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .content .textBox pre {
+        max-width: 100%; 
+    }
+
+    .centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social {
+        right: 7px;
+        width: 30px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px 0;
+    }
+
+
+}

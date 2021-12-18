@@ -1,14 +1,7 @@
-# WLT Assingnment
+## Ana'sPlace
 
- #### A simple personal website [HTML + CSS + JavaScipt] made in order to be submitted as an assignment for a uni course named "Web Languages & Technologies". 
- 
- 
- #### link: _________________________
- 
- 
- ## A brief description 
- 
- 
- ###### -  read.ME will be updated soon  -
-v
- 
+### A simple personal WebSite made using HTML, CSS & JavaScript.
+
+https://anastasiamousa.github.io/
+
+*disclaimer: It will not remain as it is now, it will be updated every now and then, with new code, frameworks and of course, content.
