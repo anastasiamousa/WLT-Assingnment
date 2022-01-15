@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="img/amlogored150.png" type="image/x-icon">
+
+        <title>Contact form</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        
+        <script src="functions.js"></script>
+
+
+    </head>
+    <body>
+        <section>
+            <header>
+                <a href="index.html"><img src="img/amlogored150.png" class="logo"></a>
+                <div class="toggle" onclick="menu()"></div>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="background.html">Background</a></li>
+                    <li><a href="volunteering.html">Volunteering</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="social.html">Social Media</a></li>
+                    <li><a href="contactform.html">Contact form</a></li>
+                </ul>
+                </header>
+                
+                <div class="loading" id="loading">
+                    <h4 id="submissiontext" style="visibility: hidden;">Το μήνυμά σας στάλθηκε με επιτυχία!</h4>
+                    <div class="content">
+                        <div id="form" class="contactform">
+                            <h4>Fill the contact form.</h4>
+                            <input type="text" id="name" class="textbox" placeholder="Το όνομά σας">
+                            <input type="email" id="email" class="textbox" placeholder="Το email σας">
+                            <textarea id="message" class="textbox area" placeholder="Το μήνυμά σας"></textarea>
+                            <input type="button" id="send" class="sendbutton" value="Αποστολή" onclick="validateform()">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <footer>
+            <h6>Ana's code lines - 2022</h6>
+        </footer>
+    </body>
+</html>
